@@ -22,7 +22,7 @@ const App = () => {
   return (
     <PaperProvider theme={theme}>
       <ReduxProvider store={store}>
-        <AppNav />
+        <AppNav store={store} />
       </ReduxProvider>
     </PaperProvider>
   );
