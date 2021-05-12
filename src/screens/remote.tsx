@@ -16,12 +16,11 @@ type Props = PropsFromRedux & {
 
 
 /*-----------------------------REDUX---------------------------------*/
-const mapStateToProps = (state: AppState) => {
-    console.log(state);
-    return {
-        appstate: state
+const mapStateToProps = (state: AppState) => ({
+    appstate: {
+        url: state.url,
     }
-};
+});
 const mapDispatchToProps = {
     setUrl,
     clearStore,
@@ -31,9 +30,9 @@ const connector = connect(mapStateToProps, mapDispatchToProps);
 
 /*-----------------------------COMPONENT---------------------------------*/
 
-function HomeScreen(props: Props) {
+function RemoteScreen(props: Props) {
 
-    console.log("asdas: " + props.appstate.url);
+
     return (
         <SafeAreaView>
             <View style={{ alignSelf: "center" }}>
@@ -42,15 +41,16 @@ function HomeScreen(props: Props) {
                 </Text>
             </View>
             <Button onPress={() => {
-                props.setUrl("1")
+                props.setUrl("RESt")
             }} style={{ width: 120 }} mode="contained">
-                Press
+                Press me
             </Button>
             <Text>
                 {props.appstate.url}
             </Text>
+
         </SafeAreaView>
     )
 }
 
-export default connector(HomeScreen);
+export default connector(RemoteScreen);

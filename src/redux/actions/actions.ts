@@ -19,9 +19,8 @@ const clearStore = (key: AppState): ReduxActionType => ({
 
 
 
-const actions = {
+
+export {
   setUrl,
   clearStore,
 };
-
-export default actions;

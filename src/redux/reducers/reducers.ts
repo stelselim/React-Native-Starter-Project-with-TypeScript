@@ -9,7 +9,7 @@ const helperSetUrl = (state: AppState, payload: string) => {
     url: payload,
   };
 };
-const helperClearStore = (state: AppState) => {
+const helperClearStore = () => {
   return INITIAL_STATE;
 };
 
@@ -19,13 +19,11 @@ const reducerOfApp = (state = INITIAL_STATE, action: ReduxActionType) => {
       return helperSetUrl(state, action.payload)
 
     case actionsTypes.CLEAR_STORE:
-      return helperClearStore(state);
+      return helperClearStore();
 
     default:
-      return state;
+      return INITIAL_STATE;
   }
 };
 
-export default combineReducers({
-  appstate: reducerOfApp,
-});
+export default reducerOfApp;
