@@ -6,6 +6,8 @@ import { connect, ConnectedProps } from 'react-redux';
 import { AppState } from '../redux/store';
 import { setUrl, clearStore } from '../redux/actions/actions';
 import { HomeStackParamList } from '../routes/Stacks';
+import WebView from 'react-native-webview';
+import { HOME_HTML } from '../htmls/home';
 
 /*-----------------------------TYPES---------------------------------*/
 type HomeScreenProps = StackScreenProps<HomeStackParamList, 'Home'>;
@@ -33,22 +35,12 @@ const connector = connect(mapStateToProps, mapDispatchToProps);
 
 function HomeScreen(props: Props) {
 
-    console.log("asdas: " + props.appstate.url);
     return (
-        <SafeAreaView>
-            <View style={{ alignSelf: "center" }}>
-                <Text>
-                    Hello React Native
-                </Text>
-            </View>
-            <Button onPress={() => {
-                props.setUrl("1")
-            }} style={{ width: 120 }} mode="contained">
-                Press
-            </Button>
-            <Text>
-                {props.appstate.url}
-            </Text>
+        <SafeAreaView style={{flex:1}}>
+             <WebView 
+                style={{flex:1}}
+                source={{html: HOME_HTML(props.appstate.url)}}
+            />
         </SafeAreaView>
     )
 }

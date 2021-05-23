@@ -1,12 +1,12 @@
 import { StackScreenProps } from '@react-navigation/stack/lib/typescript/src/types';
 import React from 'react';
-import { Dimensions, SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import { Alert, Dimensions, SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import { Button } from 'react-native-paper';
 import { connect, ConnectedProps } from 'react-redux';
 import { AppState } from '../redux/store';
 import { setUrl, clearStore } from '../redux/actions/actions';
 import { TextInput } from 'react-native-paper';
-import Icon from 'react-native-vector-icons/FontAwesome'
+import Icon from 'react-native-vector-icons/FontAwesome5'
 
 /*-----------------------------TYPES---------------------------------*/
 type PropsFromRedux = ConnectedProps<typeof connector>;
@@ -16,7 +16,6 @@ type Props = PropsFromRedux & {
 
 /*-----------------------------REDUX---------------------------------*/
 const mapStateToProps = (state: AppState) => {
-    console.log(state);
     return {
         appstate: state
     }
@@ -45,9 +44,9 @@ function WelcomeScreen(props: Props) {
 
                 <Icon style={styles.iconStyle
                 }
-                    name="home"
+                    name="robot"
                     size={120}
-                    color="#100" />
+                    color="#170" />
             </View>
             <View style={styles.body}>
 
@@ -65,8 +64,13 @@ function WelcomeScreen(props: Props) {
                     style={styles.buttonStyle}
                     mode="contained"
                     onPress={() => {
-                        props.setUrl("ws://" + socketUrl + ":9090/")
+                        try {
+                            const url = "ws://" + socketUrl + ":9090/";
+                            props.setUrl(url);
 
+                        } catch (error) {
+                            Alert.alert(error)
+                        }
                     }}
                 >
                     <Text style={{ color: "white" }}>
@@ -94,7 +98,8 @@ const styles = StyleSheet.create({
         width: Dimensions.get("screen").width * 0.8,
         textAlign: "center",
         fontSize: 32,
-        fontWeight: "500",
+        color: "#170",
+        fontWeight: "600",
         alignItems: "center"
     },
     textInput: {
@@ -104,7 +109,7 @@ const styles = StyleSheet.create({
 
     },
     buttonStyle: {
-        width: 120
+        width: 120,
     },
     body: {
         flex: 1,

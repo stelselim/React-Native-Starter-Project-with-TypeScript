@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RosMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RosMobileTests.m */; };
-		0855A8C954EE8753C10DB92D /* libPods-RosMobile-RosMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 115FF296733607EBBB9DF1C5 /* libPods-RosMobile-RosMobileTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2F2D4D9B9A5BD246A0C36EFD /* libPods-RosMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BF8993D54DDE7798F3ED57 /* libPods-RosMobile.a */; };
 		42B8D7472649789700794456 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 42B8D7462649789700794456 /* fonts */; };
-		53346E5AEA30023C5BB8D927 /* libPods-RosMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 840CE2F1266D17461753CEEC /* libPods-RosMobile.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		956080B335B56DB532A6795F /* libPods-RosMobile-RosMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB71BBB9CEC144328BB2617 /* libPods-RosMobile-RosMobileTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,20 +31,20 @@
 		00E356EE1AD99517003FC87E /* RosMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RosMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RosMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RosMobileTests.m; sourceTree = "<group>"; };
-		115FF296733607EBBB9DF1C5 /* libPods-RosMobile-RosMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RosMobile-RosMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* RosMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RosMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RosMobile/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RosMobile/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RosMobile/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RosMobile/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RosMobile/main.m; sourceTree = "<group>"; };
-		1F7E5D5F5819F1E98833C257 /* Pods-RosMobile-RosMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RosMobile-RosMobileTests.release.xcconfig"; path = "Target Support Files/Pods-RosMobile-RosMobileTests/Pods-RosMobile-RosMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		1FB71BBB9CEC144328BB2617 /* libPods-RosMobile-RosMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RosMobile-RosMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		333872D44DD9DC23D5A77F3B /* Pods-RosMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RosMobile.debug.xcconfig"; path = "Target Support Files/Pods-RosMobile/Pods-RosMobile.debug.xcconfig"; sourceTree = "<group>"; };
 		42B8D7462649789700794456 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
-		51F5B91EA9A9890DD938FCA9 /* Pods-RosMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RosMobile.release.xcconfig"; path = "Target Support Files/Pods-RosMobile/Pods-RosMobile.release.xcconfig"; sourceTree = "<group>"; };
-		5510EDBE5B6A171C0A76154A /* Pods-RosMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RosMobile.debug.xcconfig"; path = "Target Support Files/Pods-RosMobile/Pods-RosMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		6C7468F3E8B601EF165F0325 /* Pods-RosMobile-RosMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RosMobile-RosMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-RosMobile-RosMobileTests/Pods-RosMobile-RosMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		766EB2138AAEF863616C3AD7 /* Pods-RosMobile-RosMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RosMobile-RosMobileTests.release.xcconfig"; path = "Target Support Files/Pods-RosMobile-RosMobileTests/Pods-RosMobile-RosMobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RosMobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		840CE2F1266D17461753CEEC /* libPods-RosMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RosMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		95BDC06501AA3D89EDC9D7D5 /* Pods-RosMobile-RosMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RosMobile-RosMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-RosMobile-RosMobileTests/Pods-RosMobile-RosMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81BF8993D54DDE7798F3ED57 /* libPods-RosMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RosMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA04BC3EF9FA93CA9F0364ED /* Pods-RosMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RosMobile.release.xcconfig"; path = "Target Support Files/Pods-RosMobile/Pods-RosMobile.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0855A8C954EE8753C10DB92D /* libPods-RosMobile-RosMobileTests.a in Frameworks */,
+				956080B335B56DB532A6795F /* libPods-RosMobile-RosMobileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53346E5AEA30023C5BB8D927 /* libPods-RosMobile.a in Frameworks */,
+				2F2D4D9B9A5BD246A0C36EFD /* libPods-RosMobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,8 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				840CE2F1266D17461753CEEC /* libPods-RosMobile.a */,
-				115FF296733607EBBB9DF1C5 /* libPods-RosMobile-RosMobileTests.a */,
+				81BF8993D54DDE7798F3ED57 /* libPods-RosMobile.a */,
+				1FB71BBB9CEC144328BB2617 /* libPods-RosMobile-RosMobileTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,10 +111,10 @@
 		7D12681D8A5A09A292770F39 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5510EDBE5B6A171C0A76154A /* Pods-RosMobile.debug.xcconfig */,
-				51F5B91EA9A9890DD938FCA9 /* Pods-RosMobile.release.xcconfig */,
-				95BDC06501AA3D89EDC9D7D5 /* Pods-RosMobile-RosMobileTests.debug.xcconfig */,
-				1F7E5D5F5819F1E98833C257 /* Pods-RosMobile-RosMobileTests.release.xcconfig */,
+				333872D44DD9DC23D5A77F3B /* Pods-RosMobile.debug.xcconfig */,
+				DA04BC3EF9FA93CA9F0364ED /* Pods-RosMobile.release.xcconfig */,
+				6C7468F3E8B601EF165F0325 /* Pods-RosMobile-RosMobileTests.debug.xcconfig */,
+				766EB2138AAEF863616C3AD7 /* Pods-RosMobile-RosMobileTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -158,12 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RosMobileTests" */;
 			buildPhases = (
-				02C81D7497915D1DF38ED984 /* [CP] Check Pods Manifest.lock */,
+				CCFC778A6B2E661728E175DC /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				B43086B4B2DEEFC24B0ECABF /* [CP] Embed Pods Frameworks */,
-				3E98B46AC4005DDFF9F71FFF /* [CP] Copy Pods Resources */,
+				D54F24DEBA1B5F0ACD830543 /* [CP] Embed Pods Frameworks */,
+				42D67FE46AED4A3EF307F82B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,14 +179,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RosMobile" */;
 			buildPhases = (
-				D9222D88F567814640CD17C0 /* [CP] Check Pods Manifest.lock */,
+				1BAF17D5BE1B6DECA4B2A9A5 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				5F1D15D82C1CA3E3A5CE3283 /* [CP] Embed Pods Frameworks */,
-				FB9F23A705970AD9A22B0B11 /* [CP] Copy Pods Resources */,
+				9BCEDE53EBDE6A5E5A0A6951 /* [CP] Embed Pods Frameworks */,
+				2F22DE44DD1A52E757F7884F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,80 +268,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		02C81D7497915D1DF38ED984 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RosMobile-RosMobileTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3E98B46AC4005DDFF9F71FFF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RosMobile-RosMobileTests/Pods-RosMobile-RosMobileTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RosMobile-RosMobileTests/Pods-RosMobile-RosMobileTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RosMobile-RosMobileTests/Pods-RosMobile-RosMobileTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5F1D15D82C1CA3E3A5CE3283 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RosMobile/Pods-RosMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RosMobile/Pods-RosMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RosMobile/Pods-RosMobile-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B43086B4B2DEEFC24B0ECABF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RosMobile-RosMobileTests/Pods-RosMobile-RosMobileTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RosMobile-RosMobileTests/Pods-RosMobile-RosMobileTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RosMobile-RosMobileTests/Pods-RosMobile-RosMobileTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D9222D88F567814640CD17C0 /* [CP] Check Pods Manifest.lock */ = {
+		1BAF17D5BE1B6DECA4B2A9A5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,7 +290,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FB9F23A705970AD9A22B0B11 /* [CP] Copy Pods Resources */ = {
+		2F22DE44DD1A52E757F7884F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,6 +305,79 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RosMobile/Pods-RosMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42D67FE46AED4A3EF307F82B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RosMobile-RosMobileTests/Pods-RosMobile-RosMobileTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RosMobile-RosMobileTests/Pods-RosMobile-RosMobileTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RosMobile-RosMobileTests/Pods-RosMobile-RosMobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BCEDE53EBDE6A5E5A0A6951 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RosMobile/Pods-RosMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RosMobile/Pods-RosMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RosMobile/Pods-RosMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCFC778A6B2E661728E175DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RosMobile-RosMobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D54F24DEBA1B5F0ACD830543 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RosMobile-RosMobileTests/Pods-RosMobile-RosMobileTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RosMobile-RosMobileTests/Pods-RosMobile-RosMobileTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RosMobile-RosMobileTests/Pods-RosMobile-RosMobileTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -432,7 +432,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95BDC06501AA3D89EDC9D7D5 /* Pods-RosMobile-RosMobileTests.debug.xcconfig */;
+			baseConfigurationReference = 6C7468F3E8B601EF165F0325 /* Pods-RosMobile-RosMobileTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -459,7 +459,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F7E5D5F5819F1E98833C257 /* Pods-RosMobile-RosMobileTests.release.xcconfig */;
+			baseConfigurationReference = 766EB2138AAEF863616C3AD7 /* Pods-RosMobile-RosMobileTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -483,7 +483,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5510EDBE5B6A171C0A76154A /* Pods-RosMobile.debug.xcconfig */;
+			baseConfigurationReference = 333872D44DD9DC23D5A77F3B /* Pods-RosMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -509,7 +509,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51F5B91EA9A9890DD938FCA9 /* Pods-RosMobile.release.xcconfig */;
+			baseConfigurationReference = DA04BC3EF9FA93CA9F0364ED /* Pods-RosMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
